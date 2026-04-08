@@ -17,9 +17,9 @@ pipeline {
                 python3 - <<EOF
 import calculator
 assert calculator.add(2,3) == 5
-assert calculator.sub(5,2) == 3
-assert calculator.mul(2,3) == 6
-assert calculator.div(6,2) == 3
+assert calculator.substract(5,2) == 3
+assert calculator.multiply(2,3) == 6
+assert calculator.divide(6,2) == 3
 print("All tests passed!")
 EOF
                 '''
